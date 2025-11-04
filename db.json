@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "id": 1,
+      "from": "Colombo",
+      "to": "Galle",
+      "recommended": "bus",
+      "routes": [
+        { "mode": "bus", "duration": "2h 15m", "price": "Rs. 400" },
+        { "mode": "train", "duration": "2h 45m", "price": "Rs. 350" }
+      ]
+    },
+    {
+      "id": 2,
+      "from": "Kandy",
+      "to": "Ella",
+      "recommended": "train",
+      "routes": [
+        { "mode": "train", "duration": "6h 20m", "price": "Rs. 700" },
+        { "mode": "bus", "duration": "5h 30m", "price": "Rs. 800" }
+      ]
+    },
+    {
+      "id": 3,
+      "from": "Colombo",
+      "to": "Sigiriya",
+      "recommended": "bus",
+      "routes": [
+        { "mode": "bus", "duration": "4h 10m", "price": "Rs. 600" },
+        { "mode": "train", "duration": "N/A", "price": "—" }
+      ]
+    }
+  ]
+}
