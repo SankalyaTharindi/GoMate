@@ -1,17 +1,110 @@
 {
+  "destinations": [
+    {
+      "id": 1,
+      "title": "Colombo → Sigiriya",
+      "subtitle": "Cultural Capital",
+      "status": "Active",
+      "image": "https://i.imgur.com/EvG6f8z.jpg",
+      "description": "Sigiriya, the Lion Rock Fortress, is one of Sri Lanka's most iconic landmarks."
+    },
+    {
+      "id": 2,
+      "title": "Colombo → Galle",
+      "subtitle": "Historic Fort City",
+      "status": "Popular",
+      "image": "https://i.imgur.com/v0jF0dK.jpg",
+      "description": "Galle is a historic city on Sri Lanka’s southwest coast, known for its colonial architecture."
+    },
+    {
+      "id": 3,
+      "title": "Kandy → Ella",
+      "subtitle": "Hill Country",
+      "status": "Upcoming",
+      "image": "https://i.imgur.com/EPO6cKF.jpg",
+      "description": "Ella is a small town in Sri Lanka's hill country, famous for its stunning views and tea plantations."
+    },
+    {
+      "id": 4,
+      "title": "Colombo → Nuwara Eliya",
+      "subtitle": "Little England",
+      "status": "Popular",
+      "image": "https://i.imgur.com/VQ3AlV7.jpg",
+      "description": "Nuwara Eliya is a picturesque hill town surrounded by tea estates and cool weather."
+    },
+    {
+      "id": 5,
+      "title": "Colombo → Anuradhapura",
+      "subtitle": "Ancient Capital",
+      "status": "Active",
+      "image": "https://i.imgur.com/IFef0my.jpg",
+      "description": "Anuradhapura is a UNESCO World Heritage site known for its ancient stupas and ruins."
+    },
+    {
+      "id": 6,
+      "title": "Colombo → Trincomalee",
+      "subtitle": "Coastal Paradise",
+      "status": "Upcoming",
+      "image": "https://i.imgur.com/0q4O3p1.jpg",
+      "description": "Trincomalee boasts pristine beaches and the famous Koneswaram Temple."
+    },
+    {
+      "id": 7,
+      "title": "Colombo → Jaffna",
+      "subtitle": "Northern Gem",
+      "status": "Active",
+      "image": "https://i.imgur.com/XK0Y2mA.jpg",
+      "description": "Jaffna offers unique Tamil culture, beaches, and historic forts."
+    },
+    {
+      "id": 8,
+      "title": "Kandy → Dambulla",
+      "subtitle": "Golden Temple City",
+      "status": "Popular",
+      "image": "https://i.imgur.com/PaCqJyr.jpg",
+      "description": "Dambulla is home to the famous cave temple complex with ancient murals."
+    },
+    {
+      "id": 9,
+      "title": "Colombo → Mirissa",
+      "subtitle": "Beach Haven",
+      "status": "Active",
+      "image": "https://i.imgur.com/RwDbWbH.jpg",
+      "description": "Mirissa is a popular beach destination known for whale watching and surfing."
+    },
+    {
+      "id": 10,
+      "title": "Colombo → Arugam Bay",
+      "subtitle": "Surfer’s Paradise",
+      "status": "Upcoming",
+      "image": "https://i.imgur.com/yH3AiUp.jpg",
+      "description": "Arugam Bay is a top surfing spot on Sri Lanka’s east coast."
+    }
+  ],
+
   "routes": [
     {
       "id": 1,
       "from": "Colombo",
-      "to": "Galle",
+      "to": "Sigiriya",
       "recommended": "bus",
       "routes": [
-        { "mode": "bus", "duration": "2h 15m", "price": "Rs. 400" },
-        { "mode": "train", "duration": "2h 45m", "price": "Rs. 350" }
+        { "mode": "bus", "duration": "4h 10m", "price": "Rs. 600" },
+        { "mode": "train", "duration": "N/A", "price": "—" }
       ]
     },
     {
       "id": 2,
+      "from": "Colombo",
+      "to": "Galle",
+      "recommended": "train",
+      "routes": [
+        { "mode": "bus", "duration": "2h 30m", "price": "Rs. 400" },
+        { "mode": "train", "duration": "2h", "price": "Rs. 350" }
+      ]
+    },
+    {
+      "id": 3,
       "from": "Kandy",
       "to": "Ella",
       "recommended": "train",
@@ -21,12 +114,72 @@
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "from": "Colombo",
-      "to": "Sigiriya",
+      "to": "Nuwara Eliya",
       "recommended": "bus",
       "routes": [
-        { "mode": "bus", "duration": "4h 10m", "price": "Rs. 600" },
+        { "mode": "bus", "duration": "5h", "price": "Rs. 700" },
+        { "mode": "train", "duration": "5h 40m", "price": "Rs. 650" }
+      ]
+    },
+    {
+      "id": 5,
+      "from": "Colombo",
+      "to": "Anuradhapura",
+      "recommended": "train",
+      "routes": [
+        { "mode": "bus", "duration": "5h 15m", "price": "Rs. 500" },
+        { "mode": "train", "duration": "4h 45m", "price": "Rs. 550" }
+      ]
+    },
+    {
+      "id": 6,
+      "from": "Colombo",
+      "to": "Trincomalee",
+      "recommended": "bus",
+      "routes": [
+        { "mode": "bus", "duration": "6h 30m", "price": "Rs. 900" },
+        { "mode": "train", "duration": "7h", "price": "Rs. 850" }
+      ]
+    },
+    {
+      "id": 7,
+      "from": "Colombo",
+      "to": "Jaffna",
+      "recommended": "train",
+      "routes": [
+        { "mode": "bus", "duration": "8h", "price": "Rs. 1200" },
+        { "mode": "train", "duration": "7h 30m", "price": "Rs. 1000" }
+      ]
+    },
+    {
+      "id": 8,
+      "from": "Kandy",
+      "to": "Dambulla",
+      "recommended": "bus",
+      "routes": [
+        { "mode": "bus", "duration": "2h 15m", "price": "Rs. 300" },
+        { "mode": "train", "duration": "N/A", "price": "—" }
+      ]
+    },
+    {
+      "id": 9,
+      "from": "Colombo",
+      "to": "Mirissa",
+      "recommended": "bus",
+      "routes": [
+        { "mode": "bus", "duration": "2h 45m", "price": "Rs. 450" },
+        { "mode": "train", "duration": "3h 10m", "price": "Rs. 400" }
+      ]
+    },
+    {
+      "id": 10,
+      "from": "Colombo",
+      "to": "Arugam Bay",
+      "recommended": "bus",
+      "routes": [
+        { "mode": "bus", "duration": "8h 30m", "price": "Rs. 1500" },
         { "mode": "train", "duration": "N/A", "price": "—" }
       ]
     }
