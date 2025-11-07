@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "GoMate",
+    "slug": "goMate",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4facfe"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash.png",
+        "backgroundColor": "#4facfe"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.sankalyatharindi.goMate"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "895ab918-66bf-4daf-8abd-4f98d4a7497c"
+      }
+    }
+  }
+}
